@@ -1,15 +1,14 @@
-package org.parabank.common;
+package org.swaglabs.setup;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
 
-import static org.parabank.constants.Constant.TimeoutVariable.IMPLICIT_WAIT;
-
 public class CommonActions {
 
     public static final String HOMEPAGE = "https://www.saucedemo.com";
+    public static final int IMPLICIT_WAIT = 4;
 
     public static WebDriver createDriver() {
         WebDriver driver;

@@ -1,4 +1,4 @@
-package org.parabank.common;
+package org.swaglabs.setup;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

@@ -1,4 +1,4 @@
-package org.parabank.pages.base;
+package org.swaglabs.pages.base;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

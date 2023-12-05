@@ -1,8 +1,8 @@
-package org.parabank.pages.listing;
+package org.swaglabs.pages.listing;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.parabank.pages.base.BasePage;
+import org.swaglabs.pages.base.BasePage;
 import org.testng.Assert;
 
 public class HomeListingPage extends BasePage {

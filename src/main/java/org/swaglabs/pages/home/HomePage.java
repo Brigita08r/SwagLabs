@@ -1,9 +1,9 @@
-package org.parabank.pages.home;
+package org.swaglabs.pages.home;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.parabank.pages.base.BasePage;
+import org.swaglabs.pages.base.BasePage;
 
 public class HomePage extends BasePage {
     public HomePage(WebDriver driver) {
