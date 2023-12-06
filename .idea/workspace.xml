@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3d4d594-172b-4fde-ab05-9e2fcfdb1d36" name="Changes" comment="Updated. 3">
+    <list default="true" id="f3d4d594-172b-4fde-ab05-9e2fcfdb1d36" name="Changes" comment="Deleted some imports">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/base/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/cart/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/cart/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tests/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tests/base/BaseTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tests/products/ProductsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tests/products/ProductsTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,13 +200,21 @@
       <option name="project" value="LOCAL" />
       <updated>1701891717847</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Deleted some imports">
+      <created>1701894256501</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701894256501</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic setup" />
     <MESSAGE value="Updated. Added pagefactory" />
     <MESSAGE value="Updated. 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated. 3" />
+    <MESSAGE value="Deleted some imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted some imports" />
   </component>
 </project>

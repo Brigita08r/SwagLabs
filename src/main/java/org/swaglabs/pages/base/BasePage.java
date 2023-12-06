@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
+//good example of base plus pages structure: https://github.com/naveenanimation20/PageObjectModel/blob/master/src/main/java/com/crm/qa/pages/ContactsPage.java
 public class BasePage {
     protected WebDriver driver;
 
