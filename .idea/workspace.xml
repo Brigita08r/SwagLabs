@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3d4d594-172b-4fde-ab05-9e2fcfdb1d36" name="Changes" comment="Updated. Added pagefactory">
+    <list default="true" id="f3d4d594-172b-4fde-ab05-9e2fcfdb1d36" name="Changes" comment="Updated. 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/cart/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/cart/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tests/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tests/base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tests/products/ProductsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tests/products/ProductsTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,41 +57,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SearchApartmentTest.checkIsRedirectToListing">
-    <configuration name="LoginTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SwagLabs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.tests.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.tests.base" />
-      <option name="MAIN_CLASS_NAME" value="org.tests.base.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ParaBank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.tests.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.tests.base" />
-      <option name="MAIN_CLASS_NAME" value="org.tests.base.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.ProductsTests">
     <configuration name="LoginTest.invalidLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SwagLabs" />
       <extension name="coverage">
@@ -99,6 +69,41 @@
       <option name="PACKAGE_NAME" value="org.tests.base" />
       <option name="MAIN_CLASS_NAME" value="org.tests.base.LoginTest" />
       <option name="METHOD_NAME" value="invalidLoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductsTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SwagLabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.tests.products.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.tests.products" />
+      <option name="MAIN_CLASS_NAME" value="org.tests.products.ProductsTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductsTests.cartTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SwagLabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.tests.products.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.tests.products" />
+      <option name="MAIN_CLASS_NAME" value="org.tests.products.ProductsTests" />
+      <option name="METHOD_NAME" value="cartTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -160,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ProductsTests" />
+        <item itemvalue="TestNG.ProductsTests.cartTest" />
         <item itemvalue="TestNG.SearchApartmentTest.checkIsRedirectToListing" />
         <item itemvalue="TestNG.SearchApartmentTest" />
         <item itemvalue="TestNG.LoginTest.invalidLoginTest" />
-        <item itemvalue="TestNG.LoginTest (1)" />
-        <item itemvalue="TestNG.LoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -191,12 +196,20 @@
       <option name="project" value="LOCAL" />
       <updated>1701807112899</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated. 3">
+      <created>1701891717847</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701891717847</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic setup" />
     <MESSAGE value="Updated. Added pagefactory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated. Added pagefactory" />
+    <MESSAGE value="Updated. 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated. 3" />
   </component>
 </project>

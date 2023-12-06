@@ -1,6 +1,5 @@
 package org.swaglabs.pages.base;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -27,6 +26,8 @@ public class BasePage {
     private WebElement resetAppStateButton;
     @FindBy(id = "react-burger-cross-btn")
     private WebElement closeSideMenu;
+    @FindBy(className = "shopping_cart_link")
+    private WebElement cartButton;
 
 
     public BasePage(WebDriver driver) {
@@ -41,6 +42,10 @@ public class BasePage {
 
     public void open(String url) {
         driver.get(url);
+    }
+
+    public void navigateToCart() {
+        cartButton.click();
     }
 
     public void openSideMenu() {

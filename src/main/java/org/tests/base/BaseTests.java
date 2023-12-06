@@ -4,8 +4,8 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.swaglabs.pages.base.BasePage;
 import org.swaglabs.pages.base.LoginPage;
+import org.swaglabs.pages.cart.CartPage;
 import org.swaglabs.pages.products.HomePage;
-import org.swaglabs.pages.listing.HomeListingPage;
 import org.swaglabs.setup.CommonActions;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
@@ -15,9 +15,8 @@ public class BaseTests {
     protected BasePage basePage = new BasePage(driver);
     protected HomePage homePage = new HomePage(driver);
     protected LoginPage loginPage = new LoginPage(driver);
-    protected HomeListingPage homeListingPage = new HomeListingPage(driver);
+    protected CartPage cartPage = new CartPage(driver);
 
-    public static final String PLATFORM_AND_BROWSER = "win_chrome";
     public static final Boolean CLEAR_COOKIES_AND_STORAGE = true;
     public static final Boolean HOLD_BROWSER_OPEN = true;
 

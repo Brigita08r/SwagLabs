@@ -1,4 +1,16 @@
 package org.tests.products;
 
-public class ProductsTests {
+import org.testng.annotations.Test;
+import org.tests.base.BaseTests;
+
+import static org.swaglabs.setup.CommonActions.HOMEPAGE;
+
+public class ProductsTests extends BaseTests {
+
+    @Test
+    public void cartTest() {
+        basePage.open(HOMEPAGE);
+        cartPage.enterCredentialsAndLogin();
+        cartPage.performCartPageAction();
+    }
 }
