@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3d4d594-172b-4fde-ab05-9e2fcfdb1d36" name="Changes" comment="Basic setup">
+    <list default="true" id="f3d4d594-172b-4fde-ab05-9e2fcfdb1d36" name="Changes" comment="Updated. Added pagefactory">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/parabank/common/CommonActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/setup/CommonActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/parabank/common/Config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/parabank/common/SetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/setup/SetUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/parabank/constants/Constant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/parabank/pages/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/base/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/parabank/pages/base/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/base/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/parabank/pages/base/LoginPaged.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/base/LoginPaged.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/parabank/pages/home/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/home/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/parabank/pages/home/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/home/ProductsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/parabank/pages/listing/HomeListingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/listing/HomeListingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tests/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tests/base/BaseTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tests/base/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tests/base/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tests/products/SearchApartmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tests/products/SearchApartmentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +22,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -66,7 +53,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.invalidLoginTest">
+  <component name="RunManager" selected="TestNG.SearchApartmentTest.checkIsRedirectToListing">
     <configuration name="LoginTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SwagLabs" />
       <extension name="coverage">
@@ -173,9 +160,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest.invalidLoginTest" />
         <item itemvalue="TestNG.SearchApartmentTest.checkIsRedirectToListing" />
         <item itemvalue="TestNG.SearchApartmentTest" />
+        <item itemvalue="TestNG.LoginTest.invalidLoginTest" />
         <item itemvalue="TestNG.LoginTest (1)" />
         <item itemvalue="TestNG.LoginTest" />
       </list>
@@ -197,11 +184,19 @@
       <option name="project" value="LOCAL" />
       <updated>1701728979579</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated. Added pagefactory">
+      <created>1701807112899</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701807112899</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic setup" />
+    <MESSAGE value="Updated. Added pagefactory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated. Added pagefactory" />
   </component>
 </project>

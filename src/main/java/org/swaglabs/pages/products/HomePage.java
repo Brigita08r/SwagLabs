@@ -1,4 +1,4 @@
-package org.swaglabs.pages.home;
+package org.swaglabs.pages.products;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.swaglabs.setup.SetUp;
 import org.swaglabs.pages.base.BasePage;
 import org.swaglabs.pages.base.LoginPaged;
-import org.swaglabs.pages.home.ProductsPage;
+import org.swaglabs.pages.products.ProductsPage;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
