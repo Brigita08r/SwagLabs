@@ -2,14 +2,14 @@ package org.tests.base;
 
 import org.openqa.selenium.WebDriver;
 import org.swaglabs.setup.SetUp;
-import org.swaglabs.pages.base.BasePage;
-import org.swaglabs.pages.base.LoginPaged;
-import org.swaglabs.pages.products.ProductsPage;
+import org.swaglabs.pages.BasePage;
+import org.swaglabs.pages.LoginPaged;
+import org.swaglabs.pages.ProductsPage;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import static org.swaglabs.setup.CommonActions.HOMEPAGE;
+import static org.swaglabs.setup.SetUp.HOMEPAGE;
 
 public class LoginTest {
     private WebDriver driver;

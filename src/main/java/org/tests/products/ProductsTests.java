@@ -3,7 +3,7 @@ package org.tests.products;
 import org.testng.annotations.Test;
 import org.tests.base.BaseTests;
 
-import static org.swaglabs.setup.CommonActions.HOMEPAGE;
+import static org.swaglabs.setup.SetUp.HOMEPAGE;
 
 public class ProductsTests extends BaseTests {
 

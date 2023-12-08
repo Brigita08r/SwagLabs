@@ -1,12 +1,17 @@
-package org.swaglabs.pages.cart;
+package org.swaglabs.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.swaglabs.pages.base.BasePage;
+import org.swaglabs.pages.BasePage;
 
-public class CartPage extends BasePage {
+public class IdontKnowPage extends BasePage {
+
+    public IdontKnowPage(WebDriver driver) {
+        super(driver);
+        PageFactory.initElements(driver, this);
+    }
 
     @FindBy(id = "user-name")
     private WebElement usernameInput;
@@ -14,11 +19,6 @@ public class CartPage extends BasePage {
     private WebElement passwordInput;
     @FindBy(id = "login-button")
     private WebElement loginBtn;
-
-    public CartPage(WebDriver driver) {
-        super(driver);
-        PageFactory.initElements(driver, this);
-    }
 
     public void performCartPageAction() {
         navigateToCart();

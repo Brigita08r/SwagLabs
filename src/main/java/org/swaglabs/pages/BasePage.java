@@ -1,4 +1,4 @@
-package org.swaglabs.pages.base;
+package org.swaglabs.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,7 +12,6 @@ import java.time.Duration;
 //good example of base plus pages structure: https://github.com/naveenanimation20/PageObjectModel/blob/master/src/main/java/com/crm/qa/pages/ContactsPage.java
 public class BasePage {
     protected WebDriver driver;
-
     public static final int EXPLICIT_WAIT = 10;
 
     @FindBy(id = "react-burger-menu-btn")

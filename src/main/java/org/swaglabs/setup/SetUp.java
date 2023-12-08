@@ -4,12 +4,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SetUp {
-    private static WebDriver driver;
+    public static WebDriver driver;
+    public static final String HOMEPAGE = "https://www.saucedemo.com";
 
     public static WebDriver getDriver() {
         if (driver == null) {
             //System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
             driver = new ChromeDriver();
+            driver.manage().window().maximize();
         }
         return driver;
     }

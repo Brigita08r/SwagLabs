@@ -4,9 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3d4d594-172b-4fde-ab05-9e2fcfdb1d36" name="Changes" comment="Deleted some imports">
+    <list default="true" id="f3d4d594-172b-4fde-ab05-9e2fcfdb1d36" name="Changes" comment="Deleted some imports2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/config/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/CheckoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/FinishPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/OverviewPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/base/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/base/LoginPaged.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/LoginPaged.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/cart/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/IdontKnowPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/cart/CheckoutPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/products/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/products/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/ProductsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/swaglabs/setup/CommonActions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/swaglabs/setup/SetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/setup/SetUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tests/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tests/base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tests/base/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tests/base/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tests/products/ProductsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tests/products/ProductsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tests/products/SearchApartmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tests/products/SearchApartmentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +71,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ProductsTests">
+  <component name="RunManager" selected="TestNG.ProductsTests.cartTest">
     <configuration name="LoginTest.invalidLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SwagLabs" />
       <extension name="coverage">
@@ -162,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ProductsTests" />
         <item itemvalue="TestNG.ProductsTests.cartTest" />
+        <item itemvalue="TestNG.LoginTest.invalidLoginTest" />
+        <item itemvalue="TestNG.ProductsTests" />
         <item itemvalue="TestNG.SearchApartmentTest.checkIsRedirectToListing" />
         <item itemvalue="TestNG.SearchApartmentTest" />
-        <item itemvalue="TestNG.LoginTest.invalidLoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701894256501</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Deleted some imports2">
+      <created>1701895877543</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701895877543</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -215,6 +239,7 @@
     <MESSAGE value="Updated. Added pagefactory" />
     <MESSAGE value="Updated. 3" />
     <MESSAGE value="Deleted some imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleted some imports" />
+    <MESSAGE value="Deleted some imports2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted some imports2" />
   </component>
 </project>

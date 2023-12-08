@@ -2,20 +2,20 @@ package org.tests.base;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.swaglabs.pages.base.BasePage;
-import org.swaglabs.pages.base.LoginPage;
-import org.swaglabs.pages.cart.CartPage;
-import org.swaglabs.pages.products.HomePage;
-import org.swaglabs.setup.CommonActions;
+import org.swaglabs.pages.BasePage;
+import org.swaglabs.pages.LoginPage;
+import org.swaglabs.pages.IdontKnowPage;
+import org.swaglabs.pages.HomePage;
+import org.swaglabs.setup.SetUp;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 
 public class BaseTests {
-    protected WebDriver driver = CommonActions.createDriver();
+    protected WebDriver driver = SetUp.getDriver();
     protected BasePage basePage = new BasePage(driver);
     protected HomePage homePage = new HomePage(driver);
     protected LoginPage loginPage = new LoginPage(driver);
-    protected CartPage cartPage = new CartPage(driver);
+    protected IdontKnowPage cartPage = new IdontKnowPage(driver);
 
     public static final Boolean CLEAR_COOKIES_AND_STORAGE = true;
     public static final Boolean HOLD_BROWSER_OPEN = true;
