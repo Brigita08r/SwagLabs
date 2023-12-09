@@ -11,10 +11,21 @@ public class OverviewPage {
     private WebElement cartListItems;
     @FindBy(className = "cart_item")
     private WebElement cartItem;
+    @FindBy(className = "cancel")
+    private WebElement cancelButton;
+    @FindBy(className = "finish")
+    private WebElement finishButton;
 
     public OverviewPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
+    public void clickCancel() {
+        cancelButton.click();
+    }
+
+    public void clickFinish() {
+        finishButton.click();
+    }
 }

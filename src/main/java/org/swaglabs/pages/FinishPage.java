@@ -7,15 +7,22 @@ import org.openqa.selenium.support.PageFactory;
 
 public class FinishPage {
     String thankYouText = "Thank you for your order!";
-
     private WebDriver driver;
     @FindBy(className = "complete-header")
     private WebElement header;
     @FindBy(id = "back-to-products")
     private WebElement backToProductsButton;
+
     public FinishPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
+    public void thankYouTextIsPresent() {
+        boolean isTextPresent = driver.getPageSource().contains(thankYouText);
+    }
+
+    public void clickBackToHome() {
+        backToProductsButton.click();
+    }
 }

@@ -1,9 +1,8 @@
-package org.tests.base;
+package org.tests;
 
 import org.openqa.selenium.WebDriver;
+import org.swaglabs.pages.LoginPage;
 import org.swaglabs.setup.SetUp;
-import org.swaglabs.pages.BasePage;
-import org.swaglabs.pages.LoginPaged;
 import org.swaglabs.pages.ProductsPage;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -13,30 +12,28 @@ import static org.swaglabs.setup.SetUp.HOMEPAGE;
 
 public class LoginTest {
     private WebDriver driver;
-    private LoginPaged loginPaged;
+    private LoginPage loginPage;
     private ProductsPage productsPage;
-    private BasePage basePage;
 
 
     @BeforeTest
     public void setUp() {
         driver = SetUp.getDriver();
-        loginPaged = new LoginPaged(driver);
+        loginPage = new LoginPage(driver);
         productsPage = new ProductsPage(driver);
-        basePage = new BasePage(driver);
     }
 
     @Test
     public void invalidLoginTest() {
-        loginPaged.navigateToLoginPage(HOMEPAGE);
-        loginPaged.login("standard_user", "secret_sauce");
+        productsPage.open(HOMEPAGE);
+        loginPage.enterCredentialsAndLogin("standard_user", "secret_sauce");
         productsPage.addToCart("backpack");
         productsPage.navigateToCart();
     }
 
     @AfterTest
     public void tearDown() {
-        basePage.resetAppStateButton();
+        //basePage.resetAppStateButton();
         SetUp.closeDriver();
     }
 }

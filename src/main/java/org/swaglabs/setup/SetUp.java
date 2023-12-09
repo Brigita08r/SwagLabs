@@ -7,6 +7,9 @@ public class SetUp {
     public static WebDriver driver;
     public static final String HOMEPAGE = "https://www.saucedemo.com";
 
+    public SetUp() {
+    }
+
     public static WebDriver getDriver() {
         if (driver == null) {
             //System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
