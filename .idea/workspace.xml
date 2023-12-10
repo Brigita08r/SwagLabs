@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3d4d594-172b-4fde-ab05-9e2fcfdb1d36" name="Changes" comment="Some more refactoring">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/tests/CheckoutTests.java" afterDir="false" />
+    <list default="true" id="f3d4d594-172b-4fde-ab05-9e2fcfdb1d36" name="Changes" comment="More refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/OverviewPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/OverviewPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/swaglabs/config/config.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/pages/ProductsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/swaglabs/setup/SetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swaglabs/setup/SetUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tests/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tests/BaseTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tests/LoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tests/CheckoutTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tests/CheckoutTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/tests/ProductsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tests/ProductsTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tests/SearchApartmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tests/SearchApartmentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,42 +58,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CheckoutTests">
-    <configuration name="CheckoutTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SwagLabs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.tests" />
-      <option name="MAIN_CLASS_NAME" value="org.tests.CheckoutTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckoutTests.checkOutWithOneItem" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SwagLabs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.tests" />
-      <option name="MAIN_CLASS_NAME" value="org.tests.CheckoutTests" />
-      <option name="METHOD_NAME" value="checkOutWithOneItem" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.CheckoutTests.impossibleCheckoutWithoutDataInput">
     <configuration name="CheckoutTests.impossibleCheckoutWithoutDataInput" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SwagLabs" />
       <extension name="coverage">
@@ -125,9 +85,27 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.tests.products" />
+      <option name="PACKAGE_NAME" value="org.tests" />
       <option name="MAIN_CLASS_NAME" value="org.tests.ProductsTests" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductsTests.addOneItemToCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SwagLabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.tests.ProductsTests" />
+      <option name="METHOD_NAME" value="addOneItemToCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -152,17 +130,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchApartmentTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ParaBank" />
+    <configuration name="ProductsTests.addTwoItemsToCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SwagLabs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.tests.products.*" />
+          <option name="PATTERN" value="org.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.tests.searchapartment" />
-      <option name="MAIN_CLASS_NAME" value="org.tests.products.SearchApartmentTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="org.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.tests.ProductsTests" />
+      <option name="METHOD_NAME" value="addTwoItemsToCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -171,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CheckoutTests" />
-        <item itemvalue="TestNG.CheckoutTests.checkOutWithOneItem" />
         <item itemvalue="TestNG.CheckoutTests.impossibleCheckoutWithoutDataInput" />
+        <item itemvalue="TestNG.ProductsTests.addTwoItemsToCart" />
         <item itemvalue="TestNG.ProductsTests" />
         <item itemvalue="TestNG.ProductsTests.addProductsAfterReturningToAllItems" />
+        <item itemvalue="TestNG.ProductsTests.addOneItemToCart" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702160579967</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="More refactoring">
+      <created>1702236829394</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702236829394</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -248,6 +234,7 @@
     <MESSAGE value="Deleted some imports2" />
     <MESSAGE value="Made some more corrections. #TODO set up driver from TestBase" />
     <MESSAGE value="Some more refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some more refactoring" />
+    <MESSAGE value="More refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="More refactoring" />
   </component>
 </project>
