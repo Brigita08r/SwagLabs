@@ -7,10 +7,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.swaglabs.setup.SetUp;
 
 import java.time.Duration;
 
-public class ProductsPage {
+public class ProductsPage extends SetUp {
     private WebDriver driver;
     public static final int EXPLICIT_WAIT = 10;
     private static final String ITEM_ID_TEMPLATE = "add-to-cart-sauce-labs-%s";

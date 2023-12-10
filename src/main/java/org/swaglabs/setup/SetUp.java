@@ -2,6 +2,7 @@ package org.swaglabs.setup;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class SetUp {
     public static WebDriver driver;
@@ -14,9 +15,15 @@ public class SetUp {
         if (driver == null) {
             //System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
             driver = new ChromeDriver();
+            runHeadless();
             driver.manage().window().maximize();
         }
         return driver;
+    }
+
+    public static void runHeadless() {
+        ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.addArguments("--headless");
     }
 
     public static void closeDriver() {

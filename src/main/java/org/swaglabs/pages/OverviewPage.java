@@ -1,5 +1,6 @@
 package org.swaglabs.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,7 +14,7 @@ public class OverviewPage {
     private WebElement cartItem;
     @FindBy(className = "cancel")
     private WebElement cancelButton;
-    @FindBy(className = "finish")
+    @FindBy(id = "finish")
     private WebElement finishButton;
 
     public OverviewPage(WebDriver driver) {
@@ -27,5 +28,10 @@ public class OverviewPage {
 
     public void clickFinish() {
         finishButton.click();
+    }
+
+    public boolean checkAddedItemIsPresent(String addedItem) {
+        WebElement item = driver.findElement(By.xpath("//div[@class='inventory_item_name' and text()='" + addedItem + "']"));
+        return item.isDisplayed();
     }
 }

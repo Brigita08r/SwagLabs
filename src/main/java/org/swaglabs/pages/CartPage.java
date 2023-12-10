@@ -1,6 +1,7 @@
 package org.swaglabs.pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -40,7 +41,7 @@ public class CartPage {
     }
 
     public void removeItemByID(String itemId) {
-        WebElement toRemove = driver.findElement(By.id("remove-sauce-labs-bike-" + itemId));
+        WebElement toRemove = driver.findElement(By.id("remove-sauce-labs-" + itemId));
         toRemove.click();
     }
 
@@ -49,5 +50,23 @@ public class CartPage {
         String expectedTitleText = "Your Cart";
         Assert.assertEquals(pageTitle.contains(expectedTitleText),
                 String.format("Expected title to contain '%s', but actual title is '%s'", expectedTitleText, pageTitle));
+    }
+
+//    public void checkItemsAddedToCart(String itemName){
+//        WebElement item = driver.findElement(By.className("inventory_item_name"));
+//    }
+
+    public boolean isItemPresentInCart(String itemName) {
+        WebElement item = driver.findElement(By.xpath("//div[@class='inventory_item_name' and text()='" + itemName + "']"));
+        return item.isDisplayed();
+    }
+
+    public boolean checkItemIsNotPresent(String itemName) {
+        try {
+            WebElement item = driver.findElement(By.xpath("//div[@class='inventory_item_name' and text()='" + itemName + "']"));
+            return item.isDisplayed();
+        } catch (NoSuchElementException e) {
+            return false; // Item not found, return false
+        }
     }
 }
