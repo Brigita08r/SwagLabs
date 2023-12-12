@@ -56,15 +56,15 @@ public class CheckoutPage {
         cancelButton.click();
     }
 
-    public void errorMessageIsPresentNoName(){
+    public void errorMessageIsPresentNoName() {
         boolean isTextPresent = driver.getPageSource().contains(errorMessageNoFirstName);
     }
 
-    public void errorMessageIsPresentNoLastName(){
+    public void errorMessageIsPresentNoLastName() {
         boolean isTextPresent = driver.getPageSource().contains(errorMessageNoLastName);
     }
 
-    public void errorMessageIsPresentNoPostalCode(){
+    public void errorMessageIsPresentNoPostalCode() {
         boolean isTextPresent = driver.getPageSource().contains(errorMessageNoPostalCode);
     }
 

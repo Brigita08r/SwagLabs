@@ -52,10 +52,6 @@ public class CartPage {
                 String.format("Expected title to contain '%s', but actual title is '%s'", expectedTitleText, pageTitle));
     }
 
-//    public void checkItemsAddedToCart(String itemName){
-//        WebElement item = driver.findElement(By.className("inventory_item_name"));
-//    }
-
     public boolean isItemPresentInCart(String itemName) {
         WebElement item = driver.findElement(By.xpath("//div[@class='inventory_item_name' and text()='" + itemName + "']"));
         return item.isDisplayed();

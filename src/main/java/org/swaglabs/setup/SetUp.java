@@ -21,7 +21,7 @@ public class SetUp {
             //System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
             driver = new ChromeDriver();
             logger.log(Level.INFO, "Setting up and logging in...");
-            runHeadless();
+            //runHeadless();
             driver.manage().window().maximize();
         }
         return driver;
